@@ -49,7 +49,10 @@ class YourController extends Controller
 }
 ```
 
+```sh
+https://www.sohibd.com
 
+```
 
 
 4 Test 

@@ -1,7 +1,7 @@
 {
     "name": "sohibd/laravelslug",
     "description": "make easy bangla and english slug with utf-8 standard format",
-    "keyword": "bangla slug,laravelbangla slug,laravelslug,utf-8 bangla slug",
+    "keyword": ["bangla", "slug","laravelbangla slug","laravelslug","utf-8 bangla slug"],
     "type": "library",
     "license": "MIT",
     "authors": [
