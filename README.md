@@ -49,9 +49,11 @@ class YourController extends Controller
 
 
 
-4 Test
+4 Test 
 
-run your  porject as like php artisan serve  and
-coppy this url
+php artisan serve
+
+```sh
 http://127.0.0.1:8000/makesulg
 
+```
