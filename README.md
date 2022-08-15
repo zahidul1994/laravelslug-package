@@ -1,5 +1,8 @@
 ## Laravel Bangla Slug Package 
-
+[![Latest Version](https://img.shields.io/github/release/zahidul1994/laravelslug-package.svg?style=flat-square)](https://github.com/zahidul1994/laravelslug-package/releases)
+[![GitHub issues](https://img.shields.io/github/issues/zahidul1994/laravelslug-package)](https://github.com/zahidul1994/laravelslug-package/issues)
+[![GitHub forks](https://img.shields.io/github/forks/zahidul1994/laravelslug-package)](https://github.com/zahidul1994/laravelslug-package/network)
+[![GitHub stars](https://img.shields.io/github/stars/zahidul1994/laravelslug-package)](https://github.com/zahidul1994/laravelslug-package/stargazers)
 
 # Installation
 
