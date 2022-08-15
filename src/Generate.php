@@ -6,12 +6,17 @@ use Illuminate\Support\Str;
 
 class Generate
 {
-
+    public static function Slug($string)
+    {
+        $delimiter = config('laravelslug.separate');
+        $string = preg_replace("/[~`{}.'\"\!\@\#\$\%\^\&\*\(\)\_\=\+\/\?\>\<\,\[\]\:\;\|\\\]/", "", $string);
+        $string = preg_replace("/[\/_|+ -]+/", $delimiter, trim(strtolower($string)));
+        return $string;
+    }
     public static function Enslug($string)
     {
         $delimiter = config('laravelslug.separate');
-
-        return Str::slug($string, $delimiter);
+         return Str::slug($string, $delimiter);
     }
     public static function Bnslug($string)
     {
