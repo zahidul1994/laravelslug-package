@@ -1,0 +1,1 @@
+## Laravel Bangla Slug Package 

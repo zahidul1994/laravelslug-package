@@ -1,0 +1,33 @@
+{
+    "name": "sohibd/laravelslug",
+    "description": "make easy bangla and english sluge with utf-8 standard format",
+    "keyword": "bangla slug,laravelbangla slug,laravelslug,utf-8 bangla slug",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zahidul Islam",
+            "email": "mjahid1990@gmail.com",
+        }
+    ],
+    
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Sohibd\\Laravelslug\\": "src/"
+        }
+    },
+    "extra": {
+        // "branch-alias": {
+        //     "dev-master": "2.x-dev"
+        // },
+        "laravel": {
+            "providers": [
+                "Sohibd\\Laravelslug\\SlugServiceProvider"
+            ]
+        }
+    },
+}
