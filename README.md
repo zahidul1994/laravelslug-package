@@ -48,10 +48,10 @@ class YourController extends Controller
 
 }
 ```
-
+#development Some site with this package 
 ```sh
 https://www.sohibd.com
-
+https://www.bikebd.com
 ```
 
 
