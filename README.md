@@ -35,9 +35,9 @@ class YourController extends Controller
    
     YourModel::Create([
         'title'=>$request->title,
-//for bangla or other language
+        //for bangla or other language
         'slug'=> Generate::Slug($request->title),
-//for specific Language 
+      //for specific Language 
         'slug'=> Generate::Enslug($request->title),
         //or Bangla
 
