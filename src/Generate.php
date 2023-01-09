@@ -29,8 +29,28 @@ class Generate
     {
         $delimiter = config('laravelslug.separate');
         $string = trim($string);
-        $string = mb_strtolower($string, "UTF-8");;
+        $string = mb_strtolower($string, "UTF-8");
         $string = preg_replace("/[^a-z0-9_\s\-ءاآؤئبپتثجچحخدذرزژسشصضطظعغفقكکگلمنوهی]/u", $delimiter, $string);
         return $string;
+    }
+    public static function Hnslug($string)
+    {
+        $delimiter = config('laravelslug.separate');
+        $string = trim($string);
+        $string = mb_strtolower($string, "UTF-8");
+        $string =preg_replace("/[^a-z0-9_ोौेैा्ीिीूुंःअआइईउऊएऐओऔकखगघचछजझञटठडढतथदधनपफबभमयरलवसशषहश्रक्षटठडढङणनऋड़\s-]/u", $delimiter,$string);
+        $string = preg_replace("/[\s-]+/", " ", $string);
+        $string = preg_replace("/[\s]/", '-', $string);
+       return $string;
+    }
+    public static function Udslug($string)
+    {
+        $delimiter = config('laravelslug.separate');
+        $string = trim($string);
+        $string = mb_strtolower($string, "UTF-8");
+        $string =preg_replace("/[^a-z0-9_ोौेैा्ीिीूुंःअआइईउऊएऐओऔकखगघचछजझञटठडढतथदधनपफबभमयरलवसशषहश्रक्षटठडढङणनऋड़\s-]/u", $delimiter,$string);
+        $string = preg_replace("/[\s-]+/", " ", $string);
+        $string = preg_replace("/[\s]/", '-', $string);
+       return $string;
     }
 }

@@ -40,8 +40,18 @@ class YourController extends Controller
 //for specific Language 
         'slug'=> Generate::Enslug($request->title),
         //or Bangla
-        
+
+          //or Arabic
+         'slug'=> Generate::Abslug($request->title),
+
         'slug'=> Generate::Bnslug($request->title),
+       
+       //or Hindi 
+        'slug'=> Generate::Hnslug($request->title),
+
+      
+         //or Urdu
+         'slug'=> Generate::Udslug($request->title),
     ]);
      
     }   
